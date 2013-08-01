@@ -14,7 +14,8 @@ function create_bitmarklet_script(){
 function show_bitly_iframe() {
   var doc = top.document,
       iframe = doc.getElementById("bitmark_yoself_fool"),
-      script = doc.getElementById("bitmark_js");
+      script = doc.getElementById("bitmark_js"),
+      style_el = doc.getElementById("bitmark_stylesheet");
   if (iframe && script) {
     alert("bitmarklet is already running... \n close it out first if you want to start over")
       return;
@@ -79,6 +80,7 @@ function show_bitly_iframe() {
     removeEvent(window, "message", on_msg);
     if (iframe && iframe.parentNode) iframe.parentNode.removeChild(iframe);
     if (script && script.parentNode) script.parentNode.removeChild(script);
+    if (style_el && style_el.parentNode) style_el.parentNode.removeChild(style_el);
     target_el_body.className = body_old_className;
   }
   function addEvent(obj, type, fn) {
