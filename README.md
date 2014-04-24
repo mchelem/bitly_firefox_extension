@@ -8,12 +8,6 @@ It adds a bitly's pupper fish button to the url bar, allowing you to easily save
 It is a wrapper around [bitmarklet.js](http://bitly.com/a/bitmarklet.js), used for bitl.y 
 [bitmarklet](https://bitly.com/a/tools).
 
-## Installing
-
-You can test and download it using the [Add-on Builder](https://builder.addons.mozilla.org/):
-
-https://builder.addons.mozilla.org/package/195794/latest/
-
 
 ## Building
 
