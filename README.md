@@ -1,4 +1,4 @@
-bitly Firefox Extension
+Bitly Firefox Extension
 =======================
 
 This is a nonofficial [bit.ly](http://bit.ly) firefox extension. 
